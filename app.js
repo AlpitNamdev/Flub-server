@@ -13,7 +13,7 @@ require('./db/conn');
 app.use(cookieParser())
 app.use(express.json());
 app.use(cors({
-    origin : ' https://618ea0f8993c2e00bdde983e--happy-dijkstra-8e88ec.netlify.app',
+    origin : ' https://618f1a8c9c49c01022bb16b4--happy-dijkstra-8e88ec.netlify.app ', 
     credentials  : true
 }))
 
